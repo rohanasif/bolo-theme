@@ -476,3 +476,28 @@ i:hover {
 .contact-form>button {
     margin: 0px auto;
 }
+
+.footer {
+    padding: 40px 90px;
+}
+
+.footer>span {
+    color: #7E7E7E;
+    float: left;
+}
+
+.footer>ul {
+    margin: -10px;
+    float: right;
+    list-style: none;
+}
+
+.footer>ul>li {
+    float: left;
+    font-size: 32px;
+    margin-left: 40px;
+}
+
+.footer>ul>li:hover {
+    cursor: pointer;
+}
