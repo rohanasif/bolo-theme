@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .nav-banner {
     background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url(./images/5\ \(1\).jpg);
     width: 100%;
@@ -25,7 +29,7 @@
 
 .nav-banner>ul>li {
     display: inline-block;
-    font-family: sans-serif;
+
     font-size: 14px;
     font-weight: 700;
     color: white;
@@ -45,7 +49,6 @@
     font-size: 120px;
     letter-spacing: -5px;
     line-height: 120px;
-    font-family: sans-serif;
     text-align: center;
     color: white;
     padding-top: 220px;
@@ -83,7 +86,6 @@ i:hover {
 }
 
 .text-content>h3 {
-    font-family: sans-serif;
     color: #212121;
     padding-bottom: 20px;
 }
@@ -104,8 +106,46 @@ i:hover {
 
 .left-img {
     display: inline-block;
+    width: 40%;
+}
+
+.left-img>img {
+    width: 100%;
 }
 
 .right-text {
+    padding-left: 90px;
     display: inline-block;
+    width: 40%;
+    color: white;
+}
+
+.right-text>h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.right-text span {
+    text-decoration: underline;
+    text-decoration-color: #dc3545;
+}
+
+.right-text>p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.right-text>button {
+    background: linear-gradient(to right, #eb3349, #f45c43);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.right-text>button:hover {
+    cursor: pointer;
 }
