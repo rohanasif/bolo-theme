@@ -69,7 +69,7 @@ body {
     width: 30%;
 }
 
-i {
+.card>i {
     font-size: 32px;
     color: #dc3545;
     float: left;
@@ -149,3 +149,94 @@ i:hover {
 .right-text>button:hover {
     cursor: pointer;
 }
+
+.steps {
+    padding: 90px;
+    background-color: grey;
+}
+
+.flip-card {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+    height: 200px;
+}
+
+.front {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.front>i {
+    font-size: 72px;
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.back {
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #eb3349, #f45c43);
+    visibility: hidden;
+}
+
+.flip-card:hover .front {
+    visibility: hidden;
+}
+
+.flip-card:hover .back {
+    visibility: visible;
+}
+
+.feature {
+    display: inline-block;
+    height: 290px;
+    width: 33%;
+}
+
+#one {
+    background-image: url(./images/pf\ \(1\).jpg);
+}
+
+#two {
+    background-image: url(./images/pf\ \(2\).jpg);
+}
+
+#three {
+    background-image: url(./images/pf\ \(3\).jpg);
+}
+
+#four {
+    background-image: url(./images/pf\ \(4\).jpg);
+}
+
+#five {
+    background-image: url(./images/pf\ \(5\).jpg);
+}
+
+#six {
+    background-image: url(./images/pf\ \(6\).jpg);
+}
+
+.feature>p {
+    visibility: hidden;
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.feature:hover p {
+    visibility: visible;
+}
+
+.feature:hover {
+    background-image: none;
+    background-color: #dc3545;
+}
+
+.phone-layout {
+    padding: 90px;
+}
+
