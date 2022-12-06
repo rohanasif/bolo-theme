@@ -356,3 +356,26 @@ i:hover {
     color: #eb3349;
     font-size: 13px;
 }
+
+.counters {
+    padding: 90px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.counter {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.counter>h3 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.counter>p {
+    margin: 15px 0 15px 0;
+    font-size: 12px;
+}
