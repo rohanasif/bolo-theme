@@ -241,13 +241,15 @@ i:hover {
 }
 
 .left-list {
+    margin-right: 50px;
     display: inline-block;
-    width: 20%;
+    width: 30%;
 }
 
 .phone {
     display: inline-block;
-    width: 20%;
+    width: 30%;
+    margin-right: 50px;
 }
 
 .phone>img {
@@ -256,7 +258,7 @@ i:hover {
 
 .right-list {
     display: inline-block;
-    width: 20%;
+    width: 30%;
 }
 
 .number {
@@ -273,3 +275,84 @@ i:hover {
     float: left;
 }
 
+.left-li>.text {
+    text-align: right;
+}
+
+.contact-img {
+    float: left;
+    background-image: url(./images/6\ \(1\).jpg);
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+
+.contact-text {
+    background: linear-gradient(to right, #eb3349, #f45c43);
+    color: white;
+    float: left;
+    width: 36%;
+    height: 320px;
+    padding: 90px;
+}
+
+.contact-text>h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-text>p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-text>button {
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    padding: 10px 30px 10px 30px;
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.team {
+    margin-top: 500px;
+    padding: 90px;
+}
+
+.team>h2 {
+    color: #212121;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team>h2>span {
+    text-decoration: underline;
+    text-decoration-color: #dc3545;
+}
+
+.team-card {
+    margin-right: 25px;
+    width: 22%;
+    display: inline-block;
+}
+
+.team-card>img {
+    width: 100%;
+}
+
+.team-card>h3 {
+    line-height: 30px;
+    text-align: center;
+}
+
+.team-card>p {
+    text-align: center;
+    color: #eb3349;
+    font-size: 13px;
+}
