@@ -73,14 +73,15 @@ hr {
     width: 30%;
 }
 
-.card>i {
+.card i {
     font-size: 32px;
     color: #dc3545;
     float: left;
 }
 
-i:hover {
+.card>div:hover i {
     cursor: pointer;
+    padding-top: 10px;
 }
 
 .text-content {
