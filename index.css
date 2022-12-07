@@ -202,7 +202,7 @@ i:hover {
 .feature {
     display: inline-block;
     height: 290px;
-    width: 33%;
+    width: 33.1%;
 }
 
 #one {
@@ -229,19 +229,28 @@ i:hover {
     background-image: url(./images/pf\ \(6\).jpg);
 }
 
-.feature>p {
+.hover {
+    display: block;
+    height: 100%;
+    margin-top: -140px;
+}
+
+.feature p {
     visibility: hidden;
     color: white;
     text-align: center;
+    padding-top: 140px;
     margin-top: 140px;
+    background-color: #dc3545;
+    height: 100%;
+    display: block;
 }
 
 .feature:hover p {
     visibility: visible;
 }
 
-.feature:hover {
-    background-image: none;
+.feature:hover .feature>.hover {
     background-color: #dc3545;
 }
 
