@@ -320,6 +320,11 @@ i:hover {
     font-weight: bold;
 }
 
+.contact-text>button:hover {
+    background-color: white;
+    color: #555;
+}
+
 .team {
     margin-top: 500px;
     padding: 90px;
@@ -492,12 +497,9 @@ i:hover {
 }
 
 .right-input {
-    margin-top: -100px;
-    ;
-    margin-left: 20px;
-    border: 1px solid pink;
-    display: inline-block;
-    width: 30%;
+    float: right;
+    margin-top: -10px;
+    margin-right: 100px;
 }
 
 .contact-form>button {
@@ -510,6 +512,22 @@ i:hover {
     width: 200px;
     height: 50px;
     border-radius: 25px;
+}
+
+.contact-details {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.contact-details>div {
+    width: 30%;
+    display: inline-block;
+}
+
+.contact-details h6 {
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 10px;
 }
 
 .footer {
