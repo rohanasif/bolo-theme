@@ -282,12 +282,42 @@ i:hover {
     height: 30px;
 }
 
-.text {
+
+.left-li>.text {
+    float: left;
+    text-align: right;
+}
+
+.right-li>.text {
+    float: right;
+}
+
+.right {
     float: left;
 }
 
-.left-li>.text {
-    text-align: right;
+.left {
+    float: right;
+}
+
+.left-li h3 {
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.right-li h3 {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.left-li p {
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.right-li p {
+    margin-left: 60px;
+    margin-bottom: 20px;
 }
 
 .contact-img {
